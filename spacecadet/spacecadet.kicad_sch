@@ -1,0 +1,866 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid aa79024d-ca7e-4c24-b127-7df08bbd0c75)
+
+  (paper "A4")
+
+  (title_block
+    (date "2018-09-05")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "Microcontroller" (at 74.93 19.05 0)
+    (effects (font (size 2.9972 2.9972) (thickness 0.5994) bold) (justify left bottom))
+    (uuid 155b0b7c-70b4-4a26-a550-bac13cab0aa4)
+  )
+  (text "USB Connector" (at 15.24 18.415 0)
+    (effects (font (size 2.9972 2.9972) (thickness 0.5994) bold) (justify left bottom))
+    (uuid 4f411f68-04bd-4175-a406-bcaa4cf6601e)
+  )
+  (text "Device specific\nmatrices" (at 164.465 26.67 0)
+    (effects (font (size 2.9972 2.9972) (thickness 0.5994) bold) (justify left bottom))
+    (uuid 8fc062a7-114d-48eb-a8f8-71128838f380)
+  )
+
+  (sheet (at 162.56 34.925) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005b8fc83a)
+    (property "Sheet name" "Key_Matrix" (id 0) (at 162.56 34.2134 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Key_Matrix.kicad_sch" (id 1) (at 162.56 39.3196 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 76.2 26.67) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005b908446)
+    (property "Sheet name" "MCU-ATmega32u4" (id 0) (at 76.2 25.9584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "MCU-ATmega32u4.kicad_sch" (id 1) (at 76.2 31.0646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 22.86 35.56) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005b90a59f)
+    (property "Sheet name" "USB-C" (id 0) (at 22.86 34.8484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "USB-C.kicad_sch" (id 1) (at 22.86 39.9546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/00000000-0000-0000-0000-00005b8fc83a" (page "2"))
+    (path "/00000000-0000-0000-0000-00005b908446" (page "3"))
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005ca5b290" (page "5"))
+    (path "/00000000-0000-0000-0000-00005b90a59f" (page "6"))
+  )
+
+  (symbol_instances
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005ca6f860"
+      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005ca6f862"
+      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-0000545c2700"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-0000545c2708"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-0000545c2709"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-0000545c2713"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-0000545c2715"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-0000562cdf1f"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-0000564dcad4"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-0000565c32bb"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005ca5b290/00000000-0000-0000-0000-00005667e4fb"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005ca5b290/00000000-0000-0000-0000-0000566b7a90"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005ca5b290/00000000-0000-0000-0000-000056760e65"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-0000568014b9"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-0000574762fc"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005b5faef5"
+      (reference "#PWR?") (unit 1) (value "VSS") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005ca5b290/00000000-0000-0000-0000-00005b5fb123"
+      (reference "#PWR?") (unit 1) (value "VSS") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-00005bade9cf"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005ca5b290/00000000-0000-0000-0000-00005c679c8b"
+      (reference "#PWR?") (unit 1) (value "VSS") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005ca6a220"
+      (reference "#PWR?") (unit 1) (value "VSS") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005ca6f861"
+      (reference "#PWR?") (unit 1) (value "VSS") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-00005d998c9c"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-00005d9999e0"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005ca5b290/00000000-0000-0000-0000-00005fd0b119"
+      (reference "#PWR?") (unit 1) (value "VSS") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-0000565a5f06"
+      (reference "AREF1") (unit 1) (value "TST") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-0000545c270b"
+      (reference "C1") (unit 1) (value "1uF 10V X5R 10%") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-0000567d8c34"
+      (reference "C2") (unit 1) (value "1uF 10V X5R 10%") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-0000567da590"
+      (reference "C3") (unit 1) (value "1uF 10V X5R 10%") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-0000567da26a"
+      (reference "C4") (unit 1) (value "1uF 10V X5R 10%") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-0000545c2707"
+      (reference "C5") (unit 1) (value "27pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-0000567da9af"
+      (reference "C6") (unit 1) (value "1uF 10V X5R 10%") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-000056863f4e"
+      (reference "C7") (unit 1) (value "27pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-0000567e2413"
+      (reference "C8") (unit 1) (value "1uF 10V X5R 10%") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005ca5b290/00000000-0000-0000-0000-0000568002ea"
+      (reference "C9") (unit 1) (value "4.7uF 16V X7R") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005ca5b290/00000000-0000-0000-0000-00005bac53c8"
+      (reference "C10") (unit 1) (value "4.7uF 16V X7R") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005ca5b290/00000000-0000-0000-0000-00005bac53c6"
+      (reference "C11") (unit 1) (value "10nF 100V") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005ca5b290/00000000-0000-0000-0000-00006265ba6e"
+      (reference "C12") (unit 1) (value "27pF DNP") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005ca5b290/00000000-0000-0000-0000-00005fd0b112"
+      (reference "C13") (unit 1) (value "27pF DNP") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-0000567d8b7a"
+      (reference "D2") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/411d4270-c66c-4318-b7fb-1470d34862b8"
+      (reference "D_SW_1") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/1199146e-a60b-416a-b503-e77d6d2892f9"
+      (reference "D_SW_2") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/97fe2a5c-4eee-4c7a-9c43-47749b396494"
+      (reference "D_SW_3") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/1fbb0219-551e-409b-a61b-76e8cebdfb9d"
+      (reference "D_SW_4") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/8458d41c-5d62-455d-b6e1-9f718c0faac9"
+      (reference "D_SW_5") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/cb721686-5255-4788-a3b0-ce4312e32eb7"
+      (reference "D_SW_6") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/bdf40d30-88ff-4479-bad1-69529464b61b"
+      (reference "D_SW_7") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/f1e619ac-5067-41df-8384-776ec70a6093"
+      (reference "D_SW_8") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/d1eca865-05c5-48a4-96cf-ed5f8a640e25"
+      (reference "D_SW_9") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/79476267-290e-445f-995b-0afd0e11a4b5"
+      (reference "D_SW_10") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/c8a44971-63c1-4a19-879d-b6647b2dc08d"
+      (reference "D_SW_11") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/18d11f32-e1a6-4f29-8e3c-0bfeb07299bd"
+      (reference "D_SW_12") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/4431c0f6-83ea-4eee-95a8-991da2f03ccd"
+      (reference "D_SW_13") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/576f00e6-a1be-45d3-9b93-e26d9e0fe306"
+      (reference "D_SW_14") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/be4b72db-0e02-4d9b-844a-aff689b4e648"
+      (reference "D_SW_15") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/9529c01f-e1cd-40be-b7f0-83780a544249"
+      (reference "D_SW_16") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/74f5ec08-7600-4a0b-a9e4-aae29f9ea08a"
+      (reference "D_SW_17") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/a5c8e189-1ddc-4a66-984b-e0fd1529d346"
+      (reference "D_SW_18") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/d102186a-5b58-41d0-9985-3dbb3593f397"
+      (reference "D_SW_19") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/633292d3-80c5-4986-be82-ce926e9f09f4"
+      (reference "D_SW_20") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/a599509f-fbb9-4db4-9adf-9e96bab1138d"
+      (reference "D_SW_21") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/a7f2e97b-29f3-44fd-bf8a-97a3c1528b61"
+      (reference "D_SW_22") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/b0054ce1-b60e-41de-a6a2-bf712784dd39"
+      (reference "D_SW_23") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/3249bd81-9fd4-4194-9b4f-2e333b2195b8"
+      (reference "D_SW_24") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/2b64d2cb-d62a-4762-97ea-f1b0d4293c4f"
+      (reference "D_SW_25") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/35c09d1f-2914-4d1e-a002-df30af772f3b"
+      (reference "D_SW_26") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/98970bf0-1168-4b4e-a1c9-3b0c8d7eaacf"
+      (reference "D_SW_27") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/6bd46644-7209-4d4d-acd8-f4c0d045bc61"
+      (reference "D_SW_28") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/71af7b65-0e6b-402e-b1a4-b66be507b4dc"
+      (reference "D_SW_29") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/21492bcd-343a-4b2b-b55a-b4586c11bdeb"
+      (reference "D_SW_30") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/ca6e2466-a90a-4dab-be16-b070610e5087"
+      (reference "D_SW_31") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/f5dba25f-5f9b-4770-84f9-c038fb119360"
+      (reference "D_SW_32") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/c2dd13db-24b6-40f1-b75b-b9ab893d92ea"
+      (reference "D_SW_33") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/29126f72-63f7-4275-8b12-6b96a71c6f17"
+      (reference "D_SW_34") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/4cfd9a02-97ef-4af4-a6b8-db9be1a8fda5"
+      (reference "D_SW_35") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/c346b00c-b5e0-4939-beb4-7f48172ef334"
+      (reference "D_SW_36") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/3bbbbb7d-391c-4fee-ac81-3c47878edc38"
+      (reference "D_SW_37") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/1bf7d0f9-0dcf-4d7c-b58c-318e3dc42bc9"
+      (reference "D_SW_38") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/ceb12634-32ca-4cbf-9ff5-5e8b53ab18ad"
+      (reference "D_SW_39") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/cb1a49ef-0a06-4f40-9008-61d1d1c36198"
+      (reference "D_SW_40") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/2ee28fa9-d785-45a1-9a1b-1be02ad8cd0b"
+      (reference "D_SW_41") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/f674b8e7-203d-419e-988a-58e0f9ae4fad"
+      (reference "D_SW_42") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/165f4d8d-26a9-4cf2-a8d6-9936cd983be4"
+      (reference "D_SW_43") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/82204892-ec79-4d38-a593-52fb9a9b4b87"
+      (reference "D_SW_44") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/7274c82d-0cb9-47de-b093-7d848f491410"
+      (reference "D_SW_45") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/17cf1c88-8d51-4538-aa76-e35ac22d0ed0"
+      (reference "D_SW_46") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/6762c669-2824-49a2-8bd4-3f19091dd75a"
+      (reference "D_SW_47") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/0c544a8c-9f45-4205-9bca-1d91c95d58ef"
+      (reference "D_SW_48") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/765684c2-53b3-4ef7-bd1b-7a4a73d87b76"
+      (reference "D_SW_49") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/42b61d5b-39d6-462b-b2cc-57656078085f"
+      (reference "D_SW_50") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/662bafcb-dcfb-4471-a8a9-f5c777fdf249"
+      (reference "D_SW_51") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/981ff4de-0330-4757-b746-0cb983df5e7c"
+      (reference "D_SW_52") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/fc4f0835-889b-4d2e-876e-ca524c79ae62"
+      (reference "D_SW_53") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/d2db53d0-2821-4ebe-bf21-b864eac8ca44"
+      (reference "D_SW_54") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/80f8c1b4-10dd-40fe-b7f7-67988bc3ad81"
+      (reference "D_SW_55") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/a49e8613-3cd2-48ed-8977-6bb5023f7722"
+      (reference "D_SW_56") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/fe4869dc-e96e-4bb4-a38d-2ca990635f2d"
+      (reference "D_SW_57") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/6316acb7-63a1-40e7-8695-2822d4a240b5"
+      (reference "D_SW_58") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/c81031ca-cd56-4ea3-b0db-833cbbdd7b2e"
+      (reference "D_SW_59") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/848c6095-3966-404d-9f2a-51150fd8dc54"
+      (reference "D_SW_60") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/57543893-39bf-4d83-b4e0-8d020b4a6d48"
+      (reference "D_SW_61") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/5fe7a4eb-9f04-4df6-a1fa-36c071e280d7"
+      (reference "D_SW_62") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/40b38567-9d6a-4691-bccf-1b4dbe39957b"
+      (reference "D_SW_63") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/84febc35-87fd-4cad-8e04-2b66390cfc12"
+      (reference "D_SW_64") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/1765d6b9-ca0e-49c2-8c3c-8ab35eb3909b"
+      (reference "D_SW_65") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/c10ace36-a93c-4c08-ac75-059ef9e1f71c"
+      (reference "D_SW_66") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/f030cfe8-f922-4a12-a58d-2ff6e60a9bb9"
+      (reference "D_SW_67") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/2276ec6c-cdcc-4369-86b4-8267d991001e"
+      (reference "D_SW_68") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/9e18f8b3-9e1a-4022-9224-10c12ca8a28d"
+      (reference "D_SW_69") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/188eabba-12a3-47b7-9be1-03f0c5a948eb"
+      (reference "D_SW_70") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/86143bb0-7899-4df8-b1df-baa3c0ac7889"
+      (reference "D_SW_71") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/c482f4f0-b441-4301-a9f1-c7f9e511d699"
+      (reference "D_SW_72") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/ac8576da-4e00-41a0-9609-eb655e96e10b"
+      (reference "D_SW_73") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/96ee9b8e-4543-4639-b9ea-44b8baaaf94e"
+      (reference "D_SW_74") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/105d44ff-63b9-4299-9078-473af583971a"
+      (reference "D_SW_75") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/1d9dc91c-3457-4ca5-8e42-43be60ae0831"
+      (reference "D_SW_76") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/3273ec61-4a33-41c2-82bf-cde7c8587c1b"
+      (reference "D_SW_77") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/3d2a15cb-c492-4d9a-b1dd-7d5f099d2d31"
+      (reference "D_SW_78") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/b7dfd91c-6180-48d0-832a-f6a5a032a686"
+      (reference "D_SW_79") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/2edc487e-09a5-4e4e-9675-a7b323f56380"
+      (reference "D_SW_80") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/4b042b6c-c042-4cf1-ba6e-bd77c51dbedb"
+      (reference "D_SW_81") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/8fbab3d0-cb5e-47c7-8764-6fa3c0e4e5f7"
+      (reference "D_SW_82") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/052acc87-8ff9-4162-8f55-f7121d221d0a"
+      (reference "D_SW_83") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/617498ce-8469-4f4b-9f2b-09a2437561eb"
+      (reference "D_SW_84") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/a7cad282-51c3-4f24-be5e-311c2c5e959b"
+      (reference "D_SW_85") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/55fa5fa0-9426-4801-b40c-682e71189d8a"
+      (reference "D_SW_86") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/a353a360-a1da-42d3-a5f2-38aafc184a50"
+      (reference "D_SW_87") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/35431843-170f-401f-88d7-da91172bed86"
+      (reference "D_SW_88") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/aaf0fd50-bb22-4408-be5a-88f5ba4193be"
+      (reference "D_SW_89") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/5fc4054a-b929-433e-a947-747fb7ed003d"
+      (reference "D_SW_90") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/245a6fb4-6361-4438-82ca-8861d43ca7f5"
+      (reference "D_SW_91") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/ad09de7f-a090-4e65-951a-7cf11f73b06d"
+      (reference "D_SW_92") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/61eb7a4f-888e-4082-9c74-1d94f58e7c05"
+      (reference "D_SW_93") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/e0692317-3143-4681-97c6-8fbe46592f31"
+      (reference "D_SW_94") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/03d57b22-a0ad-4d3d-9d1c-5573371e6c2f"
+      (reference "D_SW_95") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/eac540a2-0555-4530-b9cb-9b037a65c0a7"
+      (reference "D_SW_96") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/df3e0d78-29b1-4811-9600-571610f4b8a8"
+      (reference "D_SW_97") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/1d2d8ec8-1f1b-4d06-9a35-eff8e386bdb8"
+      (reference "D_SW_98") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/3742a313-c63e-4807-a7bf-be5a0ae2c781"
+      (reference "D_SW_99") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/6ee71a3c-fedb-4cc6-a3c6-f3d6f3ac6767"
+      (reference "D_SW_100") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005ca6a217"
+      (reference "ESD1") (unit 1) (value "PRTR5V0U2X") (footprint "Keyboardio:PRTR5V0U2X")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-000056965a45"
+      (reference "J1") (unit 1) (value "ICSP") (footprint "Keyboardio:Model_01_ICSP_cutout_pins")
+    )
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005ca5b290/00000000-0000-0000-0000-000054e4d3c3"
+      (reference "L1") (unit 1) (value "BLM31PG391SN1L") (footprint "Resistor_SMD:R_1206_3216Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-00005c83cf46"
+      (reference "LED_DRIVER_INTB1") (unit 1) (value "TST") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-00005c83c9df"
+      (reference "LED_DRIVER_SDB1") (unit 1) (value "TST") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-000056330d02"
+      (reference "R1") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-0000567e74ce"
+      (reference "R2") (unit 1) (value "330R 5%") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005ca5b290/00000000-0000-0000-0000-00005bac53c5"
+      (reference "R3") (unit 1) (value "500K") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005ca5b290/00000000-0000-0000-0000-0000562906b3"
+      (reference "R4") (unit 1) (value "22R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005ca5b290/00000000-0000-0000-0000-000056290bf3"
+      (reference "R5") (unit 1) (value "22R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005b5fb101"
+      (reference "R6") (unit 1) (value "5.1K") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005b5fae80"
+      (reference "R7") (unit 1) (value "5.1K") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005ca5b290/00000000-0000-0000-0000-00005c88182e"
+      (reference "RV1") (unit 1) (value "V5.5MLA0603NH") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005ca5b290/00000000-0000-0000-0000-00005c8898ba"
+      (reference "RV2") (unit 1) (value "V5.5MLA0603NH") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-00005c81bf34"
+      (reference "SCL1") (unit 1) (value "TST") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-00005c81cb6f"
+      (reference "SDA1") (unit 1) (value "TST") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-000054e65667"
+      (reference "SW1") (unit 1) (value "SW_PUSH") (footprint "Button_Switch_SMD:SW_SPST_TL3342")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/e5864fe6-2a71-47f0-90ce-38c3f8901580"
+      (reference "SW_1") (unit 1) (value "MACRO") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/9186fd02-f30d-4e17-aa38-378ab73e3908"
+      (reference "SW_2") (unit 1) (value "TERMINAL") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/9aedbb9e-8340-4899-b813-05b23382a36b"
+      (reference "SW_3") (unit 1) (value "QUOTE") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/d4c9471f-7503-4339-928c-d1abae1eede6"
+      (reference "SW_4") (unit 1) (value "OVER<BR>STRIKE") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/5d9921f1-08b3-4cc9-8cf7-e9a72ca2fdb7"
+      (reference "SW_5") (unit 1) (value "CLEAR<br>INPUT") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/f73b5500-6337-4860-a114-6e307f65ec9f"
+      (reference "SW_6") (unit 1) (value "CLEAR<br>SCREEN") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/eb8d02e9-145c-465d-b6a8-bae84d47a94b"
+      (reference "SW_7") (unit 1) (value "HOLD<br>OUTPUT") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/22bb6c80-05a9-4d89-98b0-f4c23fe6c1ce"
+      (reference "SW_8") (unit 1) (value "STOP<br>OUTPUT") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/ba6fc20e-7eff-4d5f-81e4-d1fad93be155"
+      (reference "SW_9") (unit 1) (value "ABORT") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/955cc99e-a129-42cf-abc7-aa99813fdb5f"
+      (reference "SW_10") (unit 1) (value "BREAK") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/b8b961e9-8a60-45fc-999a-a7a3baff4e0d"
+      (reference "SW_11") (unit 1) (value "RESUME") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/88002554-c459-46e5-8b22-6ea6fe07fd4c"
+      (reference "SW_12") (unit 1) (value "CALL") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/e413cfad-d7bd-41ab-b8dd-4b67484671a6"
+      (reference "SW_13") (unit 1) (value "&#8544;") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/a8219a78-6b33-4efa-a789-6a67ce8f7a50"
+      (reference "SW_14") (unit 1) (value "&#8545;") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/25bc3602-3fb4-4a04-94e3-21ba22562c24"
+      (reference "SW_15") (unit 1) (value "SYSTEM") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/337e8520-cbd2-42c0-8d17-743bab17cbbd"
+      (reference "SW_16") (unit 1) (value "± / :") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/fc3d51c1-8b35-4da3-a742-0ebe104989d7"
+      (reference "SW_17") (unit 1) (value "! / 1") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/2f291a4b-4ecb-4692-9ad2-324f9784c0d4"
+      (reference "SW_18") (unit 1) (value "@ / 2") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/cd5e758d-cb66-484a-ae8b-21f53ceee49e"
+      (reference "SW_19") (unit 1) (value "# / 3") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/443bc73a-8dc0-4e2f-a292-a5eff00efa5b"
+      (reference "SW_20") (unit 1) (value "$ / 4") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/cbebc05a-c4dd-4baf-8c08-196e84e08b27"
+      (reference "SW_21") (unit 1) (value "% / 5") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/bac7c5b3-99df-445a-ade9-1e608bbbe27e"
+      (reference "SW_22") (unit 1) (value "^ / 6") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/241e0c85-4796-48eb-a5a0-1c0f2d6e5910"
+      (reference "SW_23") (unit 1) (value "& / 7") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/3efa2ece-8f3f-4a8c-96e9-6ab3ec6f1f70"
+      (reference "SW_24") (unit 1) (value "* / 8") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/aee7520e-3bfc-435f-a66b-1dd1f5aa6a87"
+      (reference "SW_25") (unit 1) (value "( / 9") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/888fd7cb-2fc6-480c-bcfa-0b71303087d3"
+      (reference "SW_26") (unit 1) (value ") / 0") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/73fbe87f-3928-49c2-bf87-839d907c6aef"
+      (reference "SW_27") (unit 1) (value "&mdash; / &ndash;") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/83c5181e-f5ee-453c-ae5c-d7256ba8837d"
+      (reference "SW_28") (unit 1) (value "+ / =") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/de370984-7922-4327-a0ba-7cd613995df4"
+      (reference "SW_29") (unit 1) (value "< / {") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/e65bab67-68b7-4b22-a939-6f2c05164d2a"
+      (reference "SW_30") (unit 1) (value "> / }") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/42d3f9d6-2a47-41a8-b942-295fcb83bcd8"
+      (reference "SW_31") (unit 1) (value "STATUS") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/b54cae5b-c17c-4ed7-b249-2e7d5e83609a"
+      (reference "SW_32") (unit 1) (value "&#9757") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/3ed2c840-383d-4cbd-bc3b-c4ea4c97b333"
+      (reference "SW_33") (unit 1) (value "&#9759;") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/22962957-1efd-404d-83db-5b233b6c15b0"
+      (reference "SW_34") (unit 1) (value "&#8546;") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/631c7be5-8dc2-4df4-ab73-737bb928e763"
+      (reference "SW_35") (unit 1) (value "&#8547;") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/c3d5daf8-d359-42b2-a7c2-0d080ba7e212"
+      (reference "SW_36") (unit 1) (value "NETWORK") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/ad4d05f5-6957-42f8-b65c-c657b9a26485"
+      (reference "SW_37") (unit 1) (value "TAB") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/1855ca44-ab48-4b76-a210-97fc81d916c4"
+      (reference "SW_38") (unit 1) (value "&#8743; / Q") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/aa23bfe3-454b-4a2b-bfe1-101c747eb84e"
+      (reference "SW_39") (unit 1) (value "&#8744; / W") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/2b25e886-ded1-450a-ada1-ece4208052e4"
+      (reference "SW_40") (unit 1) (value "&#8745; / E") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/022502e0-e724-4b75-bc35-3c5984dbeb76"
+      (reference "SW_41") (unit 1) (value "&#8746; / R") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/a0d52767-051a-423c-a600-928281f27952"
+      (reference "SW_42") (unit 1) (value "&#8834; / T") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/6ae963fb-e34f-4e11-9adf-78839a5b2ef1"
+      (reference "SW_43") (unit 1) (value "&#8835; / Y") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/645bdbdc-8f65-42ef-a021-2d3e7d74a739"
+      (reference "SW_44") (unit 1) (value "&#8704; / U") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/37657eee-b379-4145-b65d-79c82b53e49e"
+      (reference "SW_45") (unit 1) (value "&#8734; / I") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/58126faf-01a4-4f91-8e8c-ca9e47b48048"
+      (reference "SW_46") (unit 1) (value "&#8707; / O") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/9e2492fd-e074-42db-8129-fe39460dc1e0"
+      (reference "SW_47") (unit 1) (value "&#8706; / P") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/4d2fd49e-2cb2-44d4-8935-68488970d97b"
+      (reference "SW_48") (unit 1) (value "[ / (") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/e4504518-96e7-4c9e-8457-7273f5a490f1"
+      (reference "SW_49") (unit 1) (value "] / )") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/acb6c3f3-e677-4f35-9fc2-138ba10f33af"
+      (reference "SW_50") (unit 1) (value "~ / `") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/15ea3484-2685-47cb-9e01-ec01c6d477b8"
+      (reference "SW_51") (unit 1) (value "| / \\") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/54093c93-5e7e-4c8d-8d94-40c077747c12"
+      (reference "SW_52") (unit 1) (value "DELETE") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/8aeda7bd-b078-427a-a185-d5bc595c6436"
+      (reference "SW_53") (unit 1) (value "&#9756;") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/ea28e946-b74f-4ba8-ac7b-b1884c5e7296"
+      (reference "SW_54") (unit 1) (value "&#9758;") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/ea745685-58a4-4364-a674-15381eadb187"
+      (reference "SW_55") (unit 1) (value "MODE<br>LOCK") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/5bbde4f9-fcdb-4d27-a2d6-3847fcdd87ba"
+      (reference "SW_56") (unit 1) (value "ALT MODE") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/91c82043-0b26-427f-b23c-6094224ddfc2"
+      (reference "SW_57") (unit 1) (value "RUB OUT") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/004b7456-c25a-480f-88f6-723c1bcd9939"
+      (reference "SW_58") (unit 1) (value "&#8869; / A") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/4f4bd227-fa4c-47f4-ad05-ee16ad4c58c2"
+      (reference "SW_59") (unit 1) (value "&#8868; / S") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/08da8f18-02c3-4a28-a400-670f01755980"
+      (reference "SW_60") (unit 1) (value "&#8866; / D") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/89df70f4-3579-42b9-861e-6beb04a3b25e"
+      (reference "SW_61") (unit 1) (value "&#8867; / F") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/18cf1537-83e6-4374-a277-6e3e21479ab0"
+      (reference "SW_62") (unit 1) (value "&#8593; / G") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/4c8704fa-310a-4c01-8dc1-2b7e2727fea0"
+      (reference "SW_63") (unit 1) (value "&#8595; / H") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/01109662-12b4-48a3-b68d-624008909c2a"
+      (reference "SW_64") (unit 1) (value "&#8592; / J") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/f2392fe0-54af-4e02-8793-9ba2471944b5"
+      (reference "SW_65") (unit 1) (value "&#8594; / K") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/2ec9be40-1d5a-4e2d-8a4d-4be2d3c079d5"
+      (reference "SW_66") (unit 1) (value "&#8596; / L") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/8b022692-69b7-4bd6-bf38-57edecf356fa"
+      (reference "SW_67") (unit 1) (value ": / ;") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/0ff398d7-e6e2-4972-a7a4-438407886f34"
+      (reference "SW_68") (unit 1) (value "\" / '") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/6474aa6c-825c-4f0f-9938-759b68df02a5"
+      (reference "SW_69") (unit 1) (value "RETURN") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/2f5467a7-bd49-433c-92f2-60a842e66f7b"
+      (reference "SW_70") (unit 1) (value "LINE") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/48034820-9d25-4020-8e74-d44c1441e803"
+      (reference "SW_71") (unit 1) (value "END") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/f240e733-157e-4a15-812f-78f42d8a8322"
+      (reference "SW_72") (unit 1) (value "HELP") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/89fb4a63-a18d-4c7e-be12-f061ef4bf0c0"
+      (reference "SW_73") (unit 1) (value "CAPS LOCK") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/a819bf9a-0c8b-443a-b488-e5f1395d77ad"
+      (reference "SW_74") (unit 1) (value "TOP") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/51f5536d-48d2-4807-be44-93f427952b0e"
+      (reference "SW_75") (unit 1) (value "GREEK") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/a7c83b25-afbd-4974-8870-387db8f81a5c"
+      (reference "SW_76") (unit 1) (value "SHIFT") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/fab985e9-e679-4dd8-a59c-e3195d08506a"
+      (reference "SW_77") (unit 1) (value "&#8970; / Z") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/28d267fd-6d61-43bb-9705-8d59d7a44e81"
+      (reference "SW_78") (unit 1) (value "&#8968; / X") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/ee9a2826-2513-480e-a552-3d07af5bf8a5"
+      (reference "SW_79") (unit 1) (value "&#8800; / C") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/5626e5e1-59f4-4773-828e-16057ddc3518"
+      (reference "SW_80") (unit 1) (value "&#8771; / V") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/4198eb99-d244-457e-8768-395280df1a66"
+      (reference "SW_81") (unit 1) (value "&#8801; / B") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/70186eba-dcad-4878-bf16-887f6eee49df"
+      (reference "SW_82") (unit 1) (value "&#8804; / N") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/73a6ec8e-8641-4014-be28-4611d398be32"
+      (reference "SW_83") (unit 1) (value "&#8805; / M") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/2f4c659c-2ccb-4fb1-808e-7868af588a89"
+      (reference "SW_84") (unit 1) (value "< / ,") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/3e147ce1-21a6-4e77-a3db-fd00d575cd22"
+      (reference "SW_85") (unit 1) (value "> / .") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/45b7fe01-a2fa-40c2-a3a2-4a9ae7c34dba"
+      (reference "SW_86") (unit 1) (value "? / /") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/e5889358-36b5-4652-9d71-4d4aa652a144"
+      (reference "SW_87") (unit 1) (value "SHIFT") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/20e1c48c-ae14-4a88-835e-87633cbb6a1c"
+      (reference "SW_88") (unit 1) (value "GREEK") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/0e18138e-f1a3-4288-bb34-3b6bcfb64ff6"
+      (reference "SW_89") (unit 1) (value "TOP") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/baa534a0-611b-4c48-8e86-5106dc852bd8"
+      (reference "SW_90") (unit 1) (value "REPEAT") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/5290e0d7-1f24-4c0b-91ff-28c5a304ab9a"
+      (reference "SW_91") (unit 1) (value "MODE LOCK") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/55ac7ee1-f461-406b-8cf5-da47a7717180"
+      (reference "SW_92") (unit 1) (value "HYPER") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/ca2c5f3f-362b-4808-b8c2-86726d31aa11"
+      (reference "SW_93") (unit 1) (value "SUPER") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/835d4ac3-3fb1-48d9-8c28-6093fe917376"
+      (reference "SW_94") (unit 1) (value "META") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/0fe3ebe2-61a9-477a-a657-d783c4c4d70e"
+      (reference "SW_95") (unit 1) (value "~") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/8f8bb641-6f96-48dd-a2de-b7e2aaf6efe0"
+      (reference "SW_96") (unit 1) (value "CONTROL") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/e3903eeb-8b72-4b40-a088-cbbba270c01b"
+      (reference "SW_97") (unit 1) (value "META") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/578f33ff-8d12-4136-bb61-e55b7655fa5b"
+      (reference "SW_98") (unit 1) (value "SUPER") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/e2349eb5-0f2d-4c2a-b154-1cfe1ab9cd91"
+      (reference "SW_99") (unit 1) (value "HYPER") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b8fc83a/bce25bd3-0fe5-4c8f-bd6c-39e2d62ee70a"
+      (reference "SW_100") (unit 1) (value "CONTROL") (footprint "Keyboardio:MX-KailhClip-1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-00005747630d"
+      (reference "T5") (unit 1) (value "ICSP_Test") (footprint "Keyboardio:Six_Pin_Test_Point")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-0000545c2711"
+      (reference "U1") (unit 1) (value "ATMEGA32U4-MU") (footprint "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.15x5.15mm_ThermalVias")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-0000565a618e"
+      (reference "UCAP1") (unit 1) (value "TST") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/00000000-0000-0000-0000-00005b90a59f/00000000-0000-0000-0000-00005b5fb0c4"
+      (reference "USB1") (unit 1) (value "USB_C_Receptacle") (footprint "Keyboardio:USB-TYPE-C-MIDMOUNT")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-0000565a556a"
+      (reference "UVCC1") (unit 1) (value "TST") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-0000545c2706"
+      (reference "X1") (unit 1) (value "16Mhz-18pF") (footprint "Crystal:Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-0000568b2f7f"
+      (reference "XTAL1") (unit 1) (value "TST") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/00000000-0000-0000-0000-00005b908446/00000000-0000-0000-0000-00005c6393cf"
+      (reference "XTAL2") (unit 1) (value "TST") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+  )
+)
