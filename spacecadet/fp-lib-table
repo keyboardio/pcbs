@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "Switch_Keyboard_Hotswap_Kailh")(type "KiCad")(uri "/Users/jesse/Documents/GitHub/kicad/keyswitch-kicad-library/library/footprints/Switch_Keyboard_Hotswap_Kailh.pretty")(options "")(descr ""))
+  (lib (name "Switch_Keyboard_Kailh")(type "KiCad")(uri "/Users/jesse/Documents/GitHub/kicad/keyswitch-kicad-library/library/footprints/Switch_Keyboard_Kailh.pretty")(options "")(descr ""))
 )
