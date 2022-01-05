@@ -5425,7 +5425,7 @@
       (reference "SW_3") (unit 1) (value "QUOTE") (footprint "Keyboardio:MX-KailhClip-2u-no-top-ring")
     )
     (path "/00000000-0000-0000-0000-00005b8fc83a/d4c9471f-7503-4339-928c-d1abae1eede6"
-      (reference "SW_4") (unit 1) (value "OVER<BR>STRIKE") (footprint "Keyboardio:MX-KailhClip-2u-no-top-ring")
+      (reference "SW_4") (unit 1) (value "OVERSTRIKE") (footprint "Keyboardio:MX-KailhClip-2u-no-top-ring")
     )
     (path "/00000000-0000-0000-0000-00005b8fc83a/5d9921f1-08b3-4cc9-8cf7-e9a72ca2fdb7"
       (reference "SW_5") (unit 1) (value "CLEAR<br>INPUT") (footprint "Keyboardio:MX-KailhClip-2u-no-top-ring")
